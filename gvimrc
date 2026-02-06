@@ -7,7 +7,7 @@
 " Latest revision: 2026-02-06
 "
 " Created and unlicensed by Mystikos Nikolaos <mystikos@nikolaos.org>;
-" please read LICENSE file for details.
+" please read UNLICENSE file for details.
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set window width - number of columns.
