@@ -14,38 +14,38 @@ on:
 
 jobs:
   vimrc:
-    uses: mikobartnicki/actions/.github/workflows/test_shell_command.yaml@main
+    uses: mystikosnikolaos/actions/.github/workflows/test_shell_command.yaml@main
     with:
       command_to_test: vim -u ./vimrc -e -c 'q'
 
   gvimrc:
-    uses: mikobartnicki/actions/.github/workflows/test_shell_command.yaml@main
+    uses: mystikosnikolaos/actions/.github/workflows/test_shell_command.yaml@main
     with:
       command_to_test: vim -u ./gvimrc -e -c 'q'
 
   polish-spell:
-    uses: mikobartnicki/actions/.github/workflows/test_shell_command.yaml@main
+    uses: mystikosnikolaos/actions/.github/workflows/test_shell_command.yaml@main
     with:
       command_to_test: ./polish_spell
       is_script: true
       expected_file: ./spell/pl.utf-8.spl
 
   retrobox-scheme:
-    uses: mikobartnicki/actions/.github/workflows/test_shell_command.yaml@main
+    uses: mystikosnikolaos/actions/.github/workflows/test_shell_command.yaml@main
     with:
       command_to_test: ./retrobox_scheme
       is_script: true
       expected_file: ./colors/retrobox.vim
 
   shell-indent:
-    uses: mikobartnicki/actions/.github/workflows/test_shell_command.yaml@main
+    uses: mystikosnikolaos/actions/.github/workflows/test_shell_command.yaml@main
     with:
       command_to_test: ./shell_indent
       is_script: true
       expected_file: ./indent/sh.vim
 
   smart-tabs:
-    uses: mikobartnicki/actions/.github/workflows/test_shell_command.yaml@main
+    uses: mystikosnikolaos/actions/.github/workflows/test_shell_command.yaml@main
     with:
       command_to_test: ./smart_tabs
       is_script: true
